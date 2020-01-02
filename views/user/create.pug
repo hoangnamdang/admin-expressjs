@@ -1,0 +1,20 @@
+extends ../layouts/header 
+block content
+
+    h1 page create user
+    hr
+    if errors
+        each error in errors
+            span.alert.alert-danger= error
+    hr
+    form(action="/user/create", method="POST",enctype="multipart/form-data")
+        .form-group
+            label Name
+            input.form-control(type='text', name="name",value= values ? values.name : "", placeholder='Enter name')
+        .form-group
+            label Age
+            input.form-control(type='number', name="age",value= values ? values.age : "", placeholder='Enter age')
+        .form-group
+            label Age
+            input.form-control(type='file', name="avatar")
+        button.btn.btn-primary(type='submit') Submit

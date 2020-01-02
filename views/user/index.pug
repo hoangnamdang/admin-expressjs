@@ -1,0 +1,29 @@
+extends ../layouts/header
+block content
+
+  h1 Page information 
+    hr
+    a.btn.btn-outline-primary(href="/user/create") Create user
+    form(action="/user/search",method="GET")
+      .form-group
+      input(type='text', class="form-control" name="name" placeholder='Name user')
+      button.btn.btn-primary(type='submit') Search
+
+  table.table.table-striped
+    thead
+      tr
+        th(scope='col') #
+        th(scope='col') Image
+        th(scope='col') Name
+        th(scope='col') Age
+        th(scope='col') Action
+    tbody
+    each user in dataUser
+      tr
+        th(scope='row') 
+        th
+          img(src=user.avatar,style='width: 9rem;')
+        td=user.name
+        td=user.age
+        td 
+          a.btn.btn-danger(href="/user/"+ user.id) View

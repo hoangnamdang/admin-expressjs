@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": "rA9tw5ma",
+      "name": "hoa",
+      "email": "hoang@gmail.com",
+      "password": "123456",
+      "age": "30",
+      "avatar": "uploads/44115ae56fc3f75d49206ec7539e2d53"
+    },
+    {
+      "id": "zi8Bfjq8",
+      "name": "Đặng Hoàng Nam",
+      "age": "44",
+      "avatar": "uploads/013b4a0f0e4193b1808dba179b41dea5"
+    }
+  ],
+  "products": [
+    {
+      "id": "045a8df0-6d2a-434c-b076-d80ae05e176a",
+      "name": "Muffin Mix - Chocolate Chip",
+      "image": "http://dummyimage.com/225x172.jpg/dddddd/000000",
+      "description": "suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc"
+    },
+    {
+      "id": "3adb9755-ac45-43b5-9c10-dc7ff7042c31",
+      "name": "Nori Sea Weed - Gold Label",
+      "image": "http://dummyimage.com/191x247.bmp/5fa2dd/ffffff",
+      "description": "et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "QzUEfiCU",
+      "accountId": "hoang",
+      "amount": 565
+    },
+    {
+      "id": "hNdCCa_v",
+      "accountId": "nguyen hoa",
+      "amount": 80000
+    },
+    {
+      "id": "R5ykv6N6",
+      "accountId": "hoang",
+      "amount": 50000
+    },
+    {
+      "id": "Y8lnECpA",
+      "accountId": "nguyen hoa",
+      "amount": 9900000,
+      "userId": "rA9tw5ma"
+    },
+    {
+      "id": "22mYvskP",
+      "accountId": "nguyen hoa",
+      "amount": 90000000,
+      "userId": "rA9tw5ma"
+    },
+    {
+      "id": "obJgM8Yv",
+      "accountId": "nguyen hoa",
+      "amount": 123456,
+      "userId": "rA9tw5ma"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "my6j5HG2"
+    },
+    {
+      "id": "Jve2PRQA"
+    },
+    {
+      "id": "LK0DZ0mk"
+    },
+    {
+      "id": "i4NLQzv_"
+    },
+    {
+      "id": "X-hRbkp9"
+    },
+    {
+      "id": "vAmVK1tW"
+    },
+    {
+      "id": "Ei9GI4jpo"
+    },
+    {
+      "id": "BUNZdDwe"
+    },
+    {
+      "id": "U8kRegj0e"
+    },
+    {
+      "id": "Nz7kCu3N"
+    },
+    {
+      "id": "y9Ol1omK7"
+    },
+    {
+      "id": "hiLNnVL2"
+    },
+    {
+      "id": "DaUi4Qpi"
+    },
+    {
+      "id": "pvWNA6fU"
+    }
+  ]
+}

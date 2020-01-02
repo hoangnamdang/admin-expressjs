@@ -1,0 +1,17 @@
+extends ../layouts/header 
+block content
+
+    h1 login user
+    hr
+    if errors
+            span.alert.alert-danger= errors
+    hr
+    form(action="/auth/login", method="POST")
+        input(type="hidden" name="_csrf" value=csrfToken)
+        .form-group
+            label Name
+            input.form-control(type='text', name="email",value= values ? values.email : "", placeholder='Enter name')
+        .form-group
+            label Password
+            input.form-control(type='text', name="password",value= values ? values.password : "", placeholder='Enter age')
+        button.btn.btn-primary(type='submit') Submit
